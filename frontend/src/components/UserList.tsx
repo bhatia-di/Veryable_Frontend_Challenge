@@ -1,6 +1,6 @@
 import React from 'react';
 import IUser from '../types/IUser';
-import { BACKEND_URL, FETCH_USER_LIST_URL } from '../utils';
+import { BACKEND_URL, FETCH_USER_LIST_URL } from '../utils/utils';
 import { UserCard } from './UserCard';
 
 interface UserList extends Array<IUser>{}

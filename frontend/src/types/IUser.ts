@@ -2,7 +2,7 @@ export default interface IUser {
     id: number,
     firstName: string,
     lastName: string,
-    role: string,
+    role: Role,
     email: string,
     street: string,
     city: string,
@@ -12,3 +12,10 @@ export default interface IUser {
     createdAt: string,
     lastLoggedIn: string
   }
+
+  export enum Role {
+    Administrator = "Administrator",
+    User = "User",
+    Viewer = "Viewer"
+  }
+  

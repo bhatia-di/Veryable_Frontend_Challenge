@@ -25,13 +25,16 @@ code {
 .color-turquoise {
   color: #68AAAB;
 }
+.fill-turquoise {
+  fill: #68AAAB;
+}
 
 .color-grey {
   color: #7E7E7E;
 }
 
 .fill-grey {
-  color: #7E7E7E;
+  fill: #7E7E7E !important;
 }
 
 .font-header {
@@ -102,4 +105,10 @@ font-weight: 750;
 
 .user-card-detail{
   height: 190px;
+}
+
+
+.h-75 {
+  height: 75px !important;
+  width: 75px !important;
 }
