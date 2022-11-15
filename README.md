@@ -4,20 +4,33 @@ Veryable Frontend Challenge - Show List of users  on UI
 # Backend Module:
 Created an Node application to  return the list of users 
 
-# Frontend Module:
+# Frontend Module (Starts on port 3000):
 React application to return the list of users on the user interface
-
-# Start the backend module
+It contains modular components which can be re-used when expanding the scope of the application
+# Start the backend module on port 9000
 ```
+cd backend
 npm install 
 npm start
 ```
-npm init
-npm i -D typescript
-npx tsc example.ts
+# Start the frontend module on port 9000
+```
+cd frontend
+npm install 
+npm start
+```
 
-https://www.section.io/engineering-education/how-to-create-a-simple-rest-api-using-typescript-and-nodejs/
-        // Require is synchronous function and is called only once, which means the calls receive a cached result. If the file is updated you can't re-read it using this method
-understand imports and exports
-https://dev.to/aryclenio/configuring-routes-in-nodejs-with-typescript-2281
-https://www.folkstalk.com/2022/09/create-react-app-typescript-scss-with-code-examples.html
+# Functionality and features covered in this module
+1. View the list of users
+2. Expand the details of the user 
+3. Keyboard accessibility
+
+# Future Scope
+1. Add pagination
+2. Add search bar to search accross a list of values
+3. Add selenium/ jest test cases to unit test the application
+
+
+
+
+
