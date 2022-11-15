@@ -1,0 +1,122 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eae7e7  ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.color-blue {
+  color: #2081C3;
+} 
+
+.fill-blue {
+  fill: #2081C3;
+}
+
+.color-turquoise {
+  color: #68AAAB;
+}
+.fill-turquoise {
+  fill: #68AAAB;
+}
+
+.color-grey {
+  color: #7E7E7E;
+}
+
+.fill-grey {
+  fill: #7E7E7E !important;
+}
+
+.font-header {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #4A4A4A;
+}
+
+.user-header {
+  display: flex;
+  height: 64px;
+  text-align: center;
+  box-shadow: 0 4px 2px -2px rgb(199, 198, 198);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+
+}
+.background-color-grey {
+ 
+  height: 90%;
+}
+
+.font-username {
+
+font-size: 12px;
+color: #4A4A4A;
+font-weight: 750;
+
+}
+
+.user-card {
+  margin-bottom: 16px;
+  box-shadow: 0 4px 2px -2px rgb(199, 198, 198);
+
+}
+.user-card-top {
+  height: 80px;
+}
+
+
+.user-role-font {
+  font-size: 10px;
+  color: #4A4A4A;
+
+}
+
+.font-email {
+  font-size: 10px;
+  color: #7E7E7E;
+}
+
+.detail-header-font {
+  font-size: 10px;
+  font-weight: 750;
+  color: #4A4A4A;
+
+
+}
+
+.detail-item-font {
+  font-size: 10px;
+  color: #4A4A4A;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.user-card-detail{
+  height: 190px;
+}
+
+
+.h-75 {
+  height: 75px !important;
+  width: 75px !important;
+}
+
+.expandible:focus {
+  outline: 2px solid #2081C3;
+}
+
+.expandible:focus-visible {
+  outline: 2px solid #2081C3;
+}
