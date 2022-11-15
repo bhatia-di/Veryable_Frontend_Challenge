@@ -13,7 +13,7 @@ export const fetchUserInfo = async (req: Request, res: Response) => {
 
         console.error(err.message);
         res.status(500).send({
-            "message": "Something went wrong with your request. "
+            "message": " Something went wrong with your request. "
         });
     }
 

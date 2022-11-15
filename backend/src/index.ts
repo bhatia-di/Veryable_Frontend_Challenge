@@ -4,7 +4,9 @@ import UserRoute  from "./routes/UserRoute";
 const app = express();
 const port = 9000;
 
-app.use( "/users", UserRoute );
+app.disable('etag');
+
+app.use( "/api/users", UserRoute );
 
 
 
