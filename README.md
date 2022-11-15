@@ -29,6 +29,8 @@ npm start
 1. Add pagination
 2. Add search bar to search accross a list of values
 3. Add selenium/ jest test cases to unit test the application
+4. Use scss to modularize the css and styling
+
 
 
 
