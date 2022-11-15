@@ -55,7 +55,7 @@ export const UserListComponent = () => {
                 {
                     users.map((user, index) => {
                         return (
-                            <UserCard key={'user' + index} userInfo={user} />
+                            <UserCard key={'user' + index} userInfo={user} cardIndex={index} />
                         );
                     })
     

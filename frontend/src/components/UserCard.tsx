@@ -7,7 +7,8 @@ import { UserAvatar } from './UserAvatar';
 import { formatAddress, formatPhoneNumber, formatDateTime } from '../utils/utils';
 
 export type UserCardPropsType = {
-    userInfo: IUser
+    userInfo: IUser,
+    cardIndex: number
 }
 
 export const UserCard = (UserCardProps: UserCardPropsType) => {
@@ -30,7 +31,7 @@ export const UserCard = (UserCardProps: UserCardPropsType) => {
                 </div>
 
                 <div className='col-1'>
-                    <ExpandCollapse expand={expand} changeExpand={() => setExpand(!expand)}/>
+                    <ExpandCollapse cardIndex={UserCardProps.cardIndex} expand={expand} changeExpand={() => setExpand(!expand)}/>
                 </div>
 
             </div>
