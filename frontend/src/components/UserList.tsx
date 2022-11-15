@@ -49,19 +49,27 @@ export const UserListComponent = () => {
     if (users === undefined || users === null) { return null;}
     if (users !== null && users.length === 0) { return null;}
 
-    return(
-        <div className='background-color-grey'>
-            {
-                users.map((user, index) => {
-                    return (
-                        <UserCard key={'user' + index} userInfo={user} />
-                    );
-                })
+    if (users.length > 0 ) {
+        return(
+            <div className='background-color-grey'>
+                {
+                    users.map((user, index) => {
+                        return (
+                            <UserCard key={'user' + index} userInfo={user} />
+                        );
+                    })
+    
+                }
+    
+            </div>
+        );
+    }
+    else {
+        return null;
+    }
 
-            }
 
-        </div>
-    );
+    
 
 
 

@@ -30,6 +30,10 @@ code {
   color: #7E7E7E;
 }
 
+.fill-grey {
+  color: #7E7E7E;
+}
+
 .font-header {
   font-size: 18px;
   text-transform: uppercase;
@@ -55,7 +59,7 @@ code {
 
 font-size: 12px;
 color: #4A4A4A;
-font-weight: 700;
+font-weight: 750;
 
 }
 
@@ -63,6 +67,9 @@ font-weight: 700;
   margin-bottom: 16px;
   box-shadow: 0 4px 2px -2px rgb(199, 198, 198);
 
+}
+.user-card-top {
+  height: 80px;
 }
 
 
@@ -79,7 +86,7 @@ font-weight: 700;
 
 .detail-header-font {
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 750;
   color: #4A4A4A;
 
 
@@ -88,4 +95,11 @@ font-weight: 700;
 .detail-item-font {
   font-size: 10px;
   color: #4A4A4A;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.user-card-detail{
+  height: 190px;
 }
