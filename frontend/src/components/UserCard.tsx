@@ -2,6 +2,7 @@ import React from 'react';
 import IUser from '../types/IUser';
 import { ExpandCollapse } from './ExpandCollapse';
 import { UserCardDetail } from './UserCardDetail';
+import classnames from 'classnames';
 
 export type UserCardPropsType = {
     userInfo: IUser
@@ -27,13 +28,14 @@ export const UserCard = (UserCardProps: UserCardPropsType) => {
                 </div>
 
                 <div className='col-1'>
-                    <ExpandCollapse expand={expand} />
+                    <ExpandCollapse expand={expand} changeExpand={() => setExpand(!expand)}/>
                 </div>
 
             </div>
 
-            <div className='row user-card-detail'>
-                <div className='col-2' />
+            <div className={classnames(expand ? 'row user-card-detail' : 'd-none')}>
+                <div className='col-2' >
+                </div>
                 <div className='col-9'>
                     <UserCardDetail title='Address' subTitle={UserCardProps.userInfo.street + ' , ' + UserCardProps.userInfo.city + ' , ' + UserCardProps.userInfo.zip}></UserCardDetail>
                     <UserCardDetail title='Phone' subTitle={UserCardProps.userInfo.phone}></UserCardDetail>
@@ -41,7 +43,8 @@ export const UserCard = (UserCardProps: UserCardPropsType) => {
                     <UserCardDetail title='Last Logged In' subTitle={UserCardProps.userInfo.lastLoggedIn}></UserCardDetail>
 
                 </div>
-                <div className='col-1' />
+                <div className='col-1' >
+                </div>
             </div>
 
         </div>
