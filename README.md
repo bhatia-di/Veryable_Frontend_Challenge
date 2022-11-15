@@ -20,3 +20,4 @@ https://www.section.io/engineering-education/how-to-create-a-simple-rest-api-usi
         // Require is synchronous function and is called only once, which means the calls receive a cached result. If the file is updated you can't re-read it using this method
 understand imports and exports
 https://dev.to/aryclenio/configuring-routes-in-nodejs-with-typescript-2281
+https://www.folkstalk.com/2022/09/create-react-app-typescript-scss-with-code-examples.html
